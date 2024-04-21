@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+/* 
+header{
+    background-color: aqua;
+    font-family: "Roboto", sans-serif;
+    display: inline;
+} */
+
+header{
+  border: 2px solid black;
+  border-radius: 1rem;
+  margin: 2rem;
+  background-color: #333;
+}
+
+main{
+  border: 2px solid black;
+  margin: 2rem;
+  border-radius: 1rem;
+  background-color: #fff;
+}
+
+
+footer{
+  border: 2px solid black;
+  margin: 0 2rem ;
+  padding: 0;
+  border-radius: 0 0 1rem 1rem ;
+  background-color: #fff;
+}
+
+.navbar{
+  overflow: hidden;
+}
+
+.brand{
+  float: left;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar a{
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a, a:visited {
+  color: white;
+}
+
+.navbar a:hover,.navbar a:focus{
+  background: #333;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.navbar:last-child a{
+  border-radius: 0rem 1rem 1rem 1rem;
+}
+
+
+.home{
+  background-color: #333;
+  border-radius: 1rem 1rem 0 0;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.container, .section{
+  background-color: #333;
+    text-align: center;
+    color: #fff;
+    padding: 1em;
+}
+
+.article{
+  background-color: #fff;
+}
+.About{
+  background-color: #333;
+  border: 2px;
+  margin: 2em 0 0;
+}
+.first-h{
+  background-color: #333;
+  text-align: center;
+    color: #fff;
+    margin: 2em auto 0 0;
+}
+
+.secondParagraph{
+  text-align: center;
+  color: #333;
+  margin: 1em;
+}
+
+.image{
+text-align: center;
+  margin: 1em;
+}
+
+.Audio{
+  background-color: #333;
+  text-align: center;
+}
+.work{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin: 2em auto 0 0;
+}
+
+.imaGe{
+  text-align: center;
+  margin: 1em;
+}
+.contact{
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+  margin: 2em auto 0 0;
+}
+.name, .email, .message{
+  text-align: center;
+  margin: 1em;
+}
+
+.foot{
+  background-color: #333;
+  border-radius: 0 0 1rem 1rem ;
+  color: #fff;
+  text-align: center;
+}
+
+.last{
+  text-decoration: none;
+}
